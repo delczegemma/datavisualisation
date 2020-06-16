@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">	
+</head>
+
+<body>
+<h1>Programming Assignment 1: Data Visualization Using a Chart</h1>
+
+<h2>Coursera Data Visualization Course</h2>
+
+<h3>Made by Emma Takács</h2>
+
+
+<div id="grapharea"></div>
+
+<h2>Description</h2>
+<p>This graph is a basic visualization of world temperature increase though their deviation of the mean in the given period of time. The data was provided by the <a href= "https://data.giss.nasa.gov/gistemp/">GISTEMP</a> site, I used the subset of the <a href="https://data.giss.nasa.gov/gistemp/tabledata_v4/SH.Ts+dSST.txt">Global Annual Means</a> there.  </p>
+
+<p>As temperature is dependent continuous data, I found approppriate to use a line plot here. Too many lines could have been confusing to investigate, so I visualized only the summarizing data: the Global, temperature means, the one from the Northern and the one from the Southern Hemisphere. These data tell only a clear narrative. As the mean was calculated from the centre of the time period: 1951-1980, it is clearly seen that the mean temperature was lower for that period, and after that, there is a continuous increase. The comparison of the lines also tells that the increase is stronger in the northern hemisphere, as GISTEMP analysts pointed out, because of the larger area under human influence in that side of the globe.   </p>
+
+<!-- load the d3.js library -->    
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="d3.js"></script>
+
+</body>

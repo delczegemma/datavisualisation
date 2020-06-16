@@ -1,0 +1,34 @@
+body {
+	font-family: Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans;
+	color: #181818;
+	height: auto;
+  	margin: auto;
+  	width: 75%;
+}
+
+a {
+	text-decoration: none;
+	color: #de3a4a;
+}
+
+a:hover{
+	color: #cf0a1d;
+}
+
+.axis text {
+    font-family: Lato;
+    font-size: 13px;
+}
+
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #777;
+}
+
+path.line {
+    stroke-width: 2;
+    fill: none;
+}
